@@ -4,8 +4,7 @@ This is a simple realization of brute-force algorithm.
 It is a test case from some interview.
 There are some contracts. A function brute_force has no parameter validation. An user must validate all parameters manually.
 */
-#include <iostream>
-#include <ctime>
+#include <cstdio>
 
 using namespace std;
 #define MAX_PASSWORD 256
@@ -27,7 +26,6 @@ void broot_force(char* alpha, char* alpha_end, char* password_iter, char* end ,c
 		printf("%s\n", password); 
 	}
 }
-
 int main()
 {
 	const auto N = 5;
