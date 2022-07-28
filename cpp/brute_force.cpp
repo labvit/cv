@@ -28,9 +28,9 @@ void broot_force(char* alpha, char* alpha_end, char* password_iter, char* end ,c
 }
 int main()
 {
-	const auto N = 5;
-	const auto M = 5;
-	char alpha[N+1] = {'a', 'b', 'c', '2', 'w'};
+	const auto N = 10;
+	const auto M = 10;
+	char alpha[N+1] = {'a', 'b', 'c', '2', 'w', 'q', 'e', 'r', 't', 'y'};
 	char password[M+1]={'\0'};
 	char* iterator = &password[0];
 	if(M < MAX_PASSWORD-1)
